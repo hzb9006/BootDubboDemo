@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: dubbodemo_consumer # 指定哪个应用
+  protocol:
+    name: dubbo
+    port: -1
+  consumer:
+    check: false # 消费者不检查服务提供者是否存在，如果没有配置，先启动消费者会报异常
+  #    配置注册中心
+  registry:
+    id: zk-registry
+    address: zookeeper://localhost:2181
+
+
+#  config-center:
+#    address: zookeeper://localhost:2181
+#  metadata-report:
+#    address: zookeeper://localhost:2181
