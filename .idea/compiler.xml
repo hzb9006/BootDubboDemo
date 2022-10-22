@@ -2,21 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbodemo_interface" />
-        <module name="dubbodemo_consumer" />
-        <module name="dubbodemo_provider" />
+        <module name="dubbodemo-consumer" />
+        <module name="dubbodemo-interface" />
+        <module name="dubbodemo-provider" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="dubbodemo_consumer" options="-parameters" />
-      <module name="dubbodemo_interface" options="-parameters" />
-      <module name="dubbodemo_provider" options="-parameters" />
+      <module name="dubbodemo-consumer" options="-parameters" />
+      <module name="dubbodemo-interface" options="-parameters" />
+      <module name="dubbodemo-provider" options="-parameters" />
     </option>
   </component>
 </project>
