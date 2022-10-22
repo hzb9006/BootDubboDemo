@@ -2,8 +2,8 @@
 <project version="4">
   <component name="SmartFoxWorkToolsProjectState">
     <option name="branch" value="master" />
-    <option name="gitUrl" value="https://github.com/152056212/BootDubboDemo.git" />
+    <option name="gitUrl" value="git@github.com:152056212/BootDubboDemo.git" />
     <option name="localBranch" value="master" />
-    <option name="revision" value="74eea1cf6808a02e2a5e8b986141b33ab72a2112" />
+    <option name="revision" value="30cbc44db999f3c517ba5788dbbdcbd252ee6e8a" />
   </component>
 </project>
